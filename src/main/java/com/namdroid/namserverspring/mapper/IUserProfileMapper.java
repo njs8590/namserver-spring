@@ -12,7 +12,7 @@ public interface IUserProfileMapper {
     UserProfile getUserProfileById(@Param("id") String id);
 
     @Insert("INSERT INTO UserProfile " +
-            "VALUES(#{id}, #{name}, #{phone}, #{address}, #{valid}")
+            "VALUES(#{id}, #{name}, #{phone}, #{address}, #{valid})")
     int insertUserProfile(@Param("id") String id, @Param("name") String name, @Param("phone") String phone, @Param("address") String address , @Param("valid") String valid);
 
     @Update("UPDATE UserProfile " +

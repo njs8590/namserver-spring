@@ -18,7 +18,7 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
 	//mysql connector
-	implementation group: 'mysql', name: 'mysql-connector-java', version: '6.0.6'
+	implementation group: 'mysql', name: 'mysql-connector-java' //, version: '6.0.6'
 	//mybatis: sql mapping
 	implementation group: 'org.mybatis.spring.boot', name: 'mybatis-spring-boot-starter', version: '2.2.2'
 
